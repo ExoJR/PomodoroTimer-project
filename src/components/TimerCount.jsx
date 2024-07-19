@@ -1,7 +1,7 @@
 function TimerCount() {
   return(
     <>
-    <p>
+    <p className="timer-p">
       <span className="timer-count minutes">25</span>
       <span className="timer-count">:</span>
       <span className="timer-count seconds">00</span>

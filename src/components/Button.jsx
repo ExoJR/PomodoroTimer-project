@@ -2,7 +2,7 @@ function Button({nameIcon}){
 
     return(
         <>
-    <button><i class={`fa-solid ${nameIcon}`}></i></button>
+    <button className="btn-btn" role="button"><i className={`fa-solid ${nameIcon}`}></i></button>
     </>
     )
 }

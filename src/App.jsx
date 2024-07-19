@@ -17,24 +17,28 @@ function App() {
             <Button nameIcon={`fa-play`} />
             <Button nameIcon={`fa-rotate-right`} />
           </div>
-          <div className="length-buttons-wrapper">
-            <div className="length-break">
-              <p>Break Length</p>
-              <Button nameIcon={`fa-plus`} />
-              <p>5</p>
-              <Button nameIcon={`fa-minus`} />
-            </div>
-            <div className="length-session">
-              <p>Session Length</p>
-              <Button nameIcon={`fa-plus`} />
-              <p>25</p>
-              <Button nameIcon={`fa-minus`} />
+        </div>
+        <div className="length-buttons-wrapper">
+          <div className="length-break">
+            <p>Break Length</p>
+           <div className="centered-div">
+           <Button nameIcon={`fa-minus`} />
+            <p>5</p>
+            <Button nameIcon={`fa-plus`} />
+           </div>
+          </div>
+          <div className="length-session">
+            <p>Session Length</p>
+            <div className="centered-div">
+            <Button className="btn-btn" role="button" nameIcon={`fa-minus`} />
+            <p>25</p>
+            <Button className="btn-btn" role="button" nameIcon={`fa-plus`} />
             </div>
           </div>
         </div>
       </main>
       <footer>
-        <Credit/>
+        <Credit />
       </footer>
     </>
   );
